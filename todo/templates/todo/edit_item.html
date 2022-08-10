@@ -8,7 +8,6 @@
 </head>
 <body>
     <h1>Edit Todo Item</h1>
-    <a href="/edit">Edit an Item</a>
     <form method="POST">
         {% csrf_token %}
             {{ form.as_p }}
